@@ -6,9 +6,8 @@ idade: int
 email: caractere
 valor: real
 teste: caractere
-experiencia: log
+experiencia: caractere
 inicio
-experiencia <-"Sim" or <-"Nao"
 escreval("Escreva seu Nome Completo")
 leia(nome)
 escreval("Digite a sua Idade")
