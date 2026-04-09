@@ -2,7 +2,7 @@ algoritmo "Nome do Programa"
 
 var
 nome: caractere
-idade: int
+idade: inteiro
 email: caractere
 valor: real
 teste: caractere
@@ -18,6 +18,6 @@ escreval(" Digite o valor da Bolsa")
 leia(valor)
 escreval(" Possui Experiencia")
 leia(experiencia)
-escreval("Cadastro de Pessoal")
+escreval("Cadastro de Pessoal ")
 escreval(nome," ","Idade "idade," Email "email," Bolsa "bolsa," Tem experiencia "experiencia)
 fimalgoritmo
