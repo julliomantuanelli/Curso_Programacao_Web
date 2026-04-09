@@ -17,9 +17,9 @@ leia(largura)
 escreval(" Escreva o comprimento da sala")
 leia(comprimento)
 area=largura*comprimento
-perimentro=2*largura + 2*comprimento
+perimetro=2*largura + 2*comprimento
 escreval(" Relatorio")
-escreval("A area total é "area, (" O perimetro é ")perimetro
+escreval("A area total é ",area," O perimetro é ",perimetro)
 
 
 fimalgoritmo

@@ -9,8 +9,8 @@ leia(naluno)
 escreval("Escreva o nome do professor ")
 leia(nprof)
 reserva <- naluno
-naluno <- nprov
-nprof <- naluno
-escreva("O nome do aluno é ", naluno, " e o nome do professor ", nprov)
+naluno <- nprof
+nprof <- reserva
+escreva("O nome do aluno é ", naluno, " e o nome do professor ", nprof)
 
 fimalgoritmo
