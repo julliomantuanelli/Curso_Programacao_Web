@@ -12,8 +12,8 @@ perimetro:real
 
 
 inicio
-area=comprimento*largura
-perimetro=(largura+comprimento)*2
+area <-comprimento*largura
+perimetro <-(largura+comprimento)*2
 escreval(" Escreva a largura da sala")
 leia(largura)
 escreval(" Escreva o comprimento da sala")
