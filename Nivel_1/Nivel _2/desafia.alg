@@ -5,15 +5,15 @@ algoritmo "Nome do Programa"
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL}
 var
-largura:real
-comprimento: real
-area: real
-perimetro:real
+        largura:real
+        comprimento:real
+        area:real
+        perimetro:real
 
 
 inicio
 area <-comprimento*largura
-perimetro <-(largura+comprimento)*2
+perimetro <-largura+largura+comprimento+comprimento
 escreval(" Escreva a largura da sala")
 leia(largura)
 escreval(" Escreva o comprimento da sala")
