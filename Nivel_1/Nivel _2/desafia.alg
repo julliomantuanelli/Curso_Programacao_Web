@@ -12,12 +12,13 @@ perimetro:real
 
 
 inicio
+area=comprimento*largura
+perimetro=(largura+comprimento)*2
 escreval(" Escreva a largura da sala")
 leia(largura)
 escreval(" Escreva o comprimento da sala")
 leia(comprimento)
-area=largura*comprimento
-perimetro=2*largura + 2*comprimento
+
 escreval(" Relatorio")
 escreval("A area total é ",area," O perimetro é ",perimetro)
 
